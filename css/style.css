@@ -6,19 +6,19 @@
 
 @font-face {
   font-family: open sans;
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: open sans;
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }
 .header {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-position-y: 1%;
@@ -315,7 +315,7 @@ ul {
 .search-button {
   border: none;
   width: 48px;
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-image: url(../images/search.svg);
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: center;
@@ -517,22 +517,22 @@ font-size: 11px;
 }
 .socials-link-facebook {
 /*   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg"); */
-  background-image: url("https://www.svgrepo.com/show/118107/facebook.svg");
+  background-image: url("../svg/002-facebook-logo.svg");
   
   
 }
 .socials-link-twitter {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+  background-image: url("../svg//004-twitter.svg");
 }
 .socials-link-pinterest {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 .socials-link-tumlr {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+  background-image: url("../svg//003-tumblr.svg");
 }
 .socials-link-instagram {
 /*   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg"); */
-  background-image: url("https://www.svgrepo.com/show/123786/instagram.svg");
+  background-image: url("../svg//005-instagram.svg");
   
 }
 
