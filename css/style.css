@@ -641,11 +641,10 @@ ul {
     display: block;
 }
 
-.socials-link-facebook {
+/* .socials-link-facebook {
     background-image: url("../svg/002-facebook-logo.svg");
 
-
-}
+} */
 
 .socials-link-twitter {
     background-image: url("../svg/004-twitter.svg");
@@ -659,10 +658,10 @@ ul {
     background-image: url("../svg/003-tumblr.svg");
 }
 
-.socials-link-instagram {
+/* .socials-link-instagram {
     background-image: url("../svg/005-instagram.svg");
 
-}
+} */
 
 .copiright {
     position: center;
