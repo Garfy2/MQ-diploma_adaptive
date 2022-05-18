@@ -143,6 +143,30 @@
     text-transform: uppercase;
 }
 
+@media (min-width: 641px) and (max-width: 1199px){
+    .trend-banners{
+        width: 50%;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 640px) and (orientation: landscape){
+    .trend-banners{
+        width: 50%;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) and (orientation: portrait){
+    .trend-banners{
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+}
+
 .trend-banner {
     background-image: url("../images/trend1.jpg");
     background-repeat: no-repeat;
@@ -790,6 +814,102 @@ ul {
 
 
 
+
+/* popup */
+
+.popup-background-layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(159, 159, 166, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+
+    visibility: hidden;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.popup-label {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 29px;
+    color: #0f0d0e;
+    font-weight: 700;
+}
+
+.popup-top {
+    display: flex;
+    justify-content: end;
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.popup-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.popup-form-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.block-label {
+    margin-bottom: 10px;
+}
+
+.answer-container {
+    display: flex;
+}
+
+.answer-container label {
+    margin-right: 1em;
+}
+
+.popup-text {
+    background-color: #f4f7f6;
+    border: none;
+    padding: 21px;
+}
+
+.form-button {
+    margin-top: 30px;
+    font-family: "Open Sans";
+    width: 100%;
+}
+
+input[type="radio"] {
+    accent-color: #b59f5b;
+}
 /* //// 
 
 body::after {
