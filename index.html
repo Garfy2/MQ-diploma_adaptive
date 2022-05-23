@@ -13,6 +13,10 @@
     <div class="container">
         <a class="menu-link" href="#0"><img src="svg/noemi-logo.svg" class="header-logo" alt="Логотип NOEMI"></a>
         <nav class="menu">
+            <button class="menu-burger burger">
+                <span class="burger-nav">открыть меню</span>
+            </button>
+
             <ul class="menu-list">
                 <li class="menu-list-item">
                     <a class="menu-link" href="#0">ГЛАВНАЯ</a>
@@ -77,7 +81,7 @@
 
         <div class="trend-banner trend-banner-3">
             <div class="trend-banner-frame">
-                 <ul class="trend-banner-links">
+                <ul class="trend-banner-links">
                     <li class="trend-banner-link">
                         <a class="body-link link" href="#0">lifestyle</a>
                     </li>
@@ -91,7 +95,7 @@
 
         <div class="trend-banner trend-banner-4">
             <div class="trend-banner-frame">
-                 <ul class="trend-banner-links">
+                <ul class="trend-banner-links">
                     <li class="trend-banner-link">
                         <a class="body-link link" href="#0">food</a>
                     </li>
@@ -235,31 +239,31 @@
                     потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
             </div>
         </article>
-       <!-- <article class="body">
-            <img class="body-picture" src="images/last-post5.jpg" alt="2 туриста на горе">
-            <div class="body-info">
-                <ul>
-                    <li class="body-link">
-                        <a class="link" href="#0">travel</a>
-                    </li>
-                    <li class="body-link">
-                        <a class="link" href="#0">lifestyle</a>
-                    </li>
-                </ul>
-                <h2 class="body-title">Как первый раз отправиться
-                    в горы?</h2>
-                <div class="body-details">
-                    <a class="link-time" href="0#">
-                        <time class="body-time" datetime="2019-06-10">10 июня 2019</time>
-                    </a>
-                    <a class="body-list" href="#0">
-                        Неизвестный автор
-                    </a>
-                </div>
-                <p class="body-desc">Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это
-                    зависит от многих факторов, не только от ваших желаний и интересов.</p>
-            </div>
-        </article> -->
+        <!-- <article class="body">
+             <img class="body-picture" src="images/last-post5.jpg" alt="2 туриста на горе">
+             <div class="body-info">
+                 <ul>
+                     <li class="body-link">
+                         <a class="link" href="#0">travel</a>
+                     </li>
+                     <li class="body-link">
+                         <a class="link" href="#0">lifestyle</a>
+                     </li>
+                 </ul>
+                 <h2 class="body-title">Как первый раз отправиться
+                     в горы?</h2>
+                 <div class="body-details">
+                     <a class="link-time" href="0#">
+                         <time class="body-time" datetime="2019-06-10">10 июня 2019</time>
+                     </a>
+                     <a class="body-list" href="#0">
+                         Неизвестный автор
+                     </a>
+                 </div>
+                 <p class="body-desc">Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это
+                     зависит от многих факторов, не только от ваших желаний и интересов.</p>
+             </div>
+         </article> -->
     </main>
 
     <!--конец main-->
@@ -411,74 +415,81 @@
     <h2 class="trend-label">Наши изделия</h2>
 
     <div class="cards-container">
-        <div class="card-container">
-            <picture class="card-picture">
-                <source srcset="images/shop-item-tablet1.jpg" media="min-width: 641px">
-                <source srcset="images/shop-item-mobile1.jpg" media="max-width: 640px">
-                <img  src="images/shop-item-desk1.jpg" alt="подушка">
-            </picture>
+        <div class="card-wrapper">
+            <div class="card-container">
+                <picture class="card-picture">
+                    <source srcset="images/shop-item-tablet1.jpg" media="min-width: 641px">
+                    <source srcset="images/shop-item-mobile1.jpg" media="max-width: 640px">
+                    <img src="images/shop-item-desk1.jpg" alt="подушка">
+                </picture>
 
-            <div class="card-details">
-                <h4 class="card-title">Подушки на диван</h4>
-                <p class="card-text">Набор из двух подушек с модными принтами. Видео о создании
-                    <a class="card-text-link" href="#">
-                    здесь.</a></p>
-                <div class="card-price-container">
-                    <div class="card-price">
-                        <div class="card-old-price">1000 ₽</div>
-                        <div class="card-current-price">800 ₽</div>
+                <div class="card-details">
+                    <h4 class="card-title">Подушки на диван</h4>
+                    <p class="card-text">Набор из двух подушек с модными принтами. Видео о создании
+                        <a class="card-text-link" href="#">
+                            здесь.</a></p>
+                    <div class="card-price-container">
+                        <div class="card-price">
+                            <div class="card-old-price">1000 ₽</div>
+                            <div class="card-current-price">800 ₽</div>
+                        </div>
+                        <form>
+                            <button class="card-to-shop" type="submit">в магазин</button>
+                        </form>
                     </div>
-                    <form>
-                        <button class="card-to-shop" type="submit">в магазин</button>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-        <div class="card-container">
-            <picture class="card-picture">
-                <source srcset="images/shop-item-tablet2.jpg" media="min-width: 641px">
-                <source srcset="images/shop-item-mobile2.jpg" media="max-width: 640px">
-                <img class="card-picture" src="images/shop-item-desk2.jpg" alt="зайчик">
-            </picture>
-
-            <div class="card-details">
-                <h4 class="card-title">Кукла «Зайчик»</h4>
-                <p class="card-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
-                    <a class="card-text-link" href="#">весенняя
-                    серия постов </a>в блоге и несколько подкастов.</p>
-                <div class="card-price-container">
-                    <div class="card-price">
-                        <div class="card-current-price">3500 ₽</div>
-                    </div>
-                    <form>
-                        <button class="card-to-shop" type="submit">в магазин</button>
-                    </form>
                 </div>
 
             </div>
         </div>
-        <div class="card-container">
-            <picture class="card-picture" >
-                <source srcset="images/shop-item-tablet3.jpg" media="min-width: 641px">
-                <source srcset="images/shop-item-mobile3.jpg" media="max-width: 640px">
-                <img class="card-picture" src="images/shop-item-desk3.jpg" alt="рамка">
-            </picture>
 
-            <div class="card-details">
-                <h4 class="card-title">Шестиугольная рамка</h4>
-                <p class="card-text">Необычная рамка для украшения дома из видео
-                    <a class="card-text-link" href="#">«Как сделать рамку из
-                    подручных
-                    средств за 30 минут»</a></p>
-                <div class="card-price-container">
-                    <div class="card-price">
-                        <div class="card-old-price">500 ₽</div>
-                        <div class="card-current-price">400 ₽</div>
+        <div class="card-wrapper">
+            <div class="card-container">
+                <picture class="card-picture">
+                    <source srcset="images/shop-item-tablet2.jpg" media="min-width: 641px">
+                    <source srcset="images/shop-item-mobile2.jpg" media="max-width: 640px">
+                    <img class="card-picture" src="images/shop-item-desk2.jpg" alt="зайчик">
+                </picture>
+
+                <div class="card-details">
+                    <h4 class="card-title">Кукла «Зайчик»</h4>
+                    <p class="card-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
+                        <a class="card-text-link" href="#">весенняя
+                            серия постов </a>в блоге и несколько подкастов.</p>
+                    <div class="card-price-container">
+                        <div class="card-price">
+                            <div class="card-current-price">3500 ₽</div>
+                        </div>
+                        <form>
+                            <button class="card-to-shop" type="submit">в магазин</button>
+                        </form>
                     </div>
-                    <form>
-                        <button class="card-to-shop" type="submit">в магазин</button>
-                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-wrapper">
+                <picture class="card-picture">
+                    <source srcset="images/shop-item-tablet3.jpg" media="min-width: 641px">
+                    <source srcset="images/shop-item-mobile3.jpg" media="max-width: 640px">
+                    <img class="card-picture" src="images/shop-item-desk3.jpg" alt="рамка">
+                </picture>
+
+                <div class="card-details">
+                    <h4 class="card-title">Шестиугольная рамка</h4>
+                    <p class="card-text">Необычная рамка для украшения дома из видео
+                        <a class="card-text-link" href="#">«Как сделать рамку из
+                            подручных
+                            средств за 30 минут»</a></p>
+                    <div class="card-price-container">
+                        <div class="card-price">
+                            <div class="card-old-price">500 ₽</div>
+                            <div class="card-current-price">400 ₽</div>
+                        </div>
+                        <form>
+                            <button class="card-to-shop" type="submit">в магазин</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -507,7 +518,7 @@
                 </a>
             </li>
 
-         <!--   <li>
+            <li>
                 <a class="socials-link socials-link-facebook" href="#0">
           <span class="socials-link-text">
               facebook
@@ -521,7 +532,7 @@
             instagram
           </span>
                 </a>
-            </li> -->
+            </li>
 
             <li>
                 <a class="socials-link socials-link-tumblr" href="#0">
@@ -584,5 +595,4 @@
         </div>
     </div>
 </div>
-
 </html>
